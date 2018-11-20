@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:background="#f5f5f5"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="11.7dp"
+                android:layout_marginRight="11.7dp"
+                android:layout_marginBottom="15dp"
+                android:layout_height="280dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:id="@+id/txtoffer"
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="15sp"
+                        android:text="75%"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="13sp"
+                        android:background="@drawable/rect2"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:paddingTop="10dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/ic_share_alt"/>
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/ic_like_heart_outline"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/viewpager"/>
+
+                <com.viewpagerindicator.LinePageIndicator
+                    android:id="@+id/indicator"
+                    android:padding="5dip"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="20dp"
+                    app:strokeWidth="2dp"
+                    app:lineWidth="50dp"
+                    app:unselectedColor="#cdced2"
+                    app:selectedColor="#000000"
+                    />
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="11.7dp"
+                    android:layout_marginRight="11.7dp"
+                    android:orientation="horizontal">
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:text="$149.99"
+                        android:textColor="#ef4e33" />
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/cutprice"
+                        android:textColor="#9b9b9b" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/ic_error5" />
+                </LinearLayout>
+
+
+                <customfonts.MyTextView_Roboto_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="11.7dp"
+                    android:text="Ninja high top sneackers"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Shure’s Music Phone Adapter (MPA) is our \nfavorite iPhone solution, since it lets you use\n the headphones you’re most comfortable... "
+                    android:textColor="#8c8c8c"
+                    android:layout_marginLeft="11.7dp"
+                    android:layout_marginRight="11.7dp"
+                    android:layout_marginBottom="12dp"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#f5f5f5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Best deal"
+                    android:textColor="#cccccc"
+                    android:textSize="15dp" />
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="View review"
+                    android:textColor="#ef4e33"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ebay" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$149.99"
+                        android:textSize="13sp"
+                        android:textColor="#ef4e33" />
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="amazone.com"
+                        android:textSize="12sp"
+                        android:textColor="#000000" />
+
+
+                    <RatingBar
+                        android:id="@+id/rtbHighScore"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:isIndicator="false"
+                        android:max="100"
+                        android:numStars="5"
+                        android:rating="3"
+                        android:stepSize="0.0" />
+                </LinearLayout>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/rect_red"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Buy now"
+                    android:textColor="#ffffff"
+                    android:textSize="13.7sp" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#f5f5f5"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginLeft="11.7dp"
+                android:layout_marginTop="15sp">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="10dp"
+                    android:text="Compare Price"
+                    android:textColor="#cccccc"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ebay" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:orientation="vertical">
+
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="$150.00"
+                            android:textColor="#ef4e33"
+                            android:textSize="13dp" />
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:text="ebay.com"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/rect_gray"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="view deal"
+                        android:textColor="#4a4a4a"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#c2c4ca" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ebay" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:orientation="vertical">
+
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="$150.00"
+                            android:textColor="#ef4e33"
+                            android:textSize="13dp" />
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:text="ebay.com"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/rect_gray"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="view deal"
+                        android:textColor="#4a4a4a"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#c2c4ca" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ebay" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="15dp"
+                        android:orientation="vertical">
+
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="$150.00"
+                            android:textColor="#ef4e33"
+                            android:textSize="13dp" />
+
+                        <customfonts.MyTextView_Roboto_Regular
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:text="ebay.com"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/rect_gray"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="view deal"
+                        android:textColor="#4a4a4a"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="#c2c4ca" />
+
+
+            </LinearLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#f5f5f5"/>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Similar Products"
+                android:textColor="#cccccc"
+                android:textSize="13sp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="11.7dp"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:id="@+id/recyclerview3"/>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

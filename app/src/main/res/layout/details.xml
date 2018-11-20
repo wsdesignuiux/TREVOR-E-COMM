@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+    <customfonts.MyTextView_sfuitext_regular
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#cccccc"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circular_shape_silhouette"/>
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Textile and Synthetic"
+            android:textSize="12sp"
+            android:textColor="#4c4c4c"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circular_shape_silhouette"/>
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Synthetic sole"
+            android:textSize="12sp"
+            android:textColor="#4c4c4c"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circular_shape_silhouette"/>
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double Fan Wave Technology"
+            android:textSize="12sp"
+            android:textColor="#4c4c4c"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circular_shape_silhouette"/>
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic 3D mizuno fit"
+            android:textSize="12sp"
+            android:textColor="#4c4c4c"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circular_shape_silhouette"/>
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redesigned midsole platform for increased durability and cushioning"
+            android:textSize="12sp"
+            android:textColor="#4c4c4c"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circular_shape_silhouette"/>
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Improved forefoot flex grooves"
+            android:textSize="12sp"
+            android:textColor="#4c4c4c"/>
+
+    </LinearLayout>
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View more"
+            android:textColor="#ef4e33"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="30dp">
+
+        <customfonts.MyTextView_sfuitext_regular
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional Details"
+            android:textColor="#cccccc"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Dimensions"
+                android:paddingTop="10dp"
+                android:paddingBottom="16dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="#9b9b9b"/>
+
+                <customfonts.MyTextView_sfuitext_regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24.1 x 2.5 x 2.5 cm"
+                    android:textSize="14sp"
+                    android:textColor="#4a4a4a"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c2c4ca"
+                android:layout_marginLeft="20dp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                android:text="Item Weight"
+                android:textColor="#9b9b9b"
+                android:textSize="14sp" />
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18 g"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c2c4ca"
+            android:layout_marginLeft="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shipping Weight"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="#9b9b9b"/>
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21 g"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c2c4ca"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASIN"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="#9b9b9b"/>
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B01FCXEWZI"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c2c4ca"
+            android:layout_marginLeft="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item model number"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="#9b9b9b"/>
+
+            <customfonts.MyTextView_sfuitext_regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PACP1-V"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c2c4ca"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
